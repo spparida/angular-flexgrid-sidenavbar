@@ -1,0 +1,8 @@
+.mat-card{
+	width: 1000Px;
+	margin: auto
+}
+
+.mat-card .full-width{
+	width: 100%
+}

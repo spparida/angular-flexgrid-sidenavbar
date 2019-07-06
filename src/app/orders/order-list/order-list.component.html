@@ -1,0 +1,54 @@
+<mat-tab-group>
+	<mat-tab label="Orders">
+		<ng-template matTabContent>
+		<p>Orders here</p>
+	</ng-template>
+	</mat-tab>
+	<mat-tab label="Shipments">
+			<ng-template matTabContent>
+			<p>Shipments here</p>
+		</ng-template>
+	</mat-tab>
+	<mat-tab label="Archived">
+			<ng-template matTabContent>
+			<p>Archived here</p>
+		</ng-template>
+	</mat-tab>
+	<mat-tab label="Customers">
+			<ng-template matTabContent>
+			<p>Customers here</p>
+			<mat-card>
+					<mat-card-title>New Customer</mat-card-title>
+					<mat-card-content>
+						<form>
+							
+							<mat-form-field>
+								<input matInput placeholder="First">
+							</mat-form-field>
+				
+							<mat-form-field>
+									<input matInput placeholder="Last">
+							</mat-form-field>
+				
+							<mat-form-field class="full-width">
+									<textarea matInput placeholder="Address"></textarea>
+							</mat-form-field>
+							
+							<mat-form-field class="full-width">
+									<span matPrefix>+1</span>
+									<input matInput placeholder="Phone">
+							</mat-form-field>
+				
+							<mat-form-field>
+									<input matInput placeholder="Fax">
+									<mat-icon matSuffix>phone</mat-icon>
+							</mat-form-field>
+						</form>
+					</mat-card-content>
+					<mat-card-actions></mat-card-actions>
+				</mat-card>
+				
+	
+		</ng-template>
+	</mat-tab>
+</mat-tab-group>
